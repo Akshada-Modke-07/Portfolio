@@ -1,0 +1,428 @@
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Outfit', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        outline: none;
+        border: none;
+        text-transform: capitalize;
+        transition: 0.2s linear;
+        scroll-behavior:smooth;
+       
+    }
+    
+   
+.nav{
+    width: 100%;
+    height: 81px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+    background-color: rgb(27 27 31);
+   position: sticky;
+   top: 0;
+   z-index: 10;
+}
+.home {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: url(b2.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.title{
+   font-size:25px ;
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+}
+.about{
+    display: flex;
+}
+.about button{
+    color:white;
+    width: 93px;
+    height: 40px;
+    margin-right: 5rem;
+    margin-top: 1.5rem;
+    background-color:rgb(198, 47, 72);
+    font-size: 1.1rem;
+}
+.about button:hover{
+    background-color:rgb(164, 37, 58);
+    transform: scale(1.1);
+}
+.about ul{
+    display: flex;
+    cursor: pointer;
+}
+.about ul li {
+    text-decoration: none;
+    display: flex;
+   margin-right: 5rem;
+   font-size: 20px;
+   margin-top: 2rem;
+   opacity: 0.7;
+   cursor: pointer;
+
+}
+.about ul li a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.about ul li a:hover{
+    text-decoration: underline;
+    color: rgb(252, 70, 101);
+    transform: scale(1.1);
+    font-weight: 700;
+}
+button{
+    text-decoration: none;
+    color: white;
+   border: none;
+  
+}
+.main-content{
+    margin-left: 4rem;
+    color: white;
+    margin-top: 50px;
+    position: absolute;
+    left: 0;
+   
+}
+.main-content button{
+        color:white;
+        width: 93px;
+        height: 40px;
+        margin-right: 5rem;
+        margin-top: 1.5rem;
+        background-color:rgb(231, 46, 77);
+        font-size: 1.1rem;
+    }
+    .main-content button:hover{
+        background-color:rgb(193, 45, 70);
+        transform: scale(1.1);
+    }
+    .main-content button a{
+        color: white;
+        text-decoration: none;
+    }
+
+.main-content span{
+    color: rgb(252, 70, 101);
+}
+.welcome{
+    font-size: 1rem;
+    opacity: 0.5;
+    
+}
+.bold{
+    margin-top: 1rem;
+    font-size: 3.3rem;
+    font-weight: 800;
+}
+.min-bold{
+    margin-top: 0.5rem;
+    font-size: 2.7rem;
+    font-weight: 600;
+}
+.para {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    opacity: 0.5;  
+}
+.div2{
+    margin-bottom: 18rem;
+}
+.div2 img{
+    width: 35rem;
+    height: 27rem;
+  position: absolute;
+right: 0;
+
+}
+
+#About {
+    background-color: rgb(20, 19, 19);
+    color: white;
+    padding: 20px;
+}
+.navbar{
+    background-color: rgb(25, 25, 27);
+    /* border: 0.1px solid rgb(252, 70, 101); */
+    box-shadow: 3px 3px 10px rgb(252, 70, 101 , 0.5) ;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+   
+}
+.img img {
+   width: 30rem;
+   height: 20rem;
+   margin-top:9rem;
+   margin-bottom:9em;
+   margin-right: 4rem;
+   margin-left: 7rem;
+}
+.Aboutme{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    background-image: url(hb.jpg);
+    background-size: cover;
+}
+.content{
+    color: white;
+    margin-left: 9rem;
+    margin-right: 9rem;
+    
+}
+.heading{
+    font-size: 2rem;
+    font-weight: 400;
+}
+.para1{
+    font-size: 1rem;
+    opacity: 0.9;
+    margin-top: 1rem;
+}
+.heading1{
+    font-size: 1.5rem;
+    font-weight: 200;
+    margin-top: 1.5rem;
+}
+.para2{
+    font-size: 1rem;
+    opacity: 0.9;
+    margin-top: 1rem;
+}
+.nav1{
+    background-color: rgb(25, 25, 27);
+    box-shadow: 3px 3px 10px rgb(252, 70, 101 , 0.5) ;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: white;
+}
+.Skills{
+    height: 40rem;
+    background-image: url(hb.jpg);
+}
+.start{
+    text-align: center;
+    color: white;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+.divfirst{
+    margin-top: 3rem;
+}
+.intern{
+    color: white;
+    font-weight: 600;
+    margin-left: 2rem;
+    font-size: 1.5rem;
+  
+}
+.first{
+    color: white;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+}
+.divproj{
+    margin-top: 2rem;
+}
+.proj{
+    
+    color: white;
+    font-weight: 600;
+    margin-left: 2rem;
+    font-size: 1.5rem;
+}
+.Skills p{
+    color: white;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+.dev{
+    margin-top: 2rem;
+}
+.development{
+    color: white;
+    font-weight: 600;
+    margin-left: 2rem;
+    font-size: 1.5rem;
+}
+
+.progress-bar {
+    width: 300px; 
+    height: 5px; 
+    background-color: #f0f0f0;
+    border-radius: 5px; 
+    overflow: hidden;
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+
+  .progress-bar-inner {
+    height: 100%;
+    width: 0;
+    background-color: rgb(252, 70, 101); 
+    
+  }
+.lang{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.section1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.per{
+    color: white;
+}
+.lastnav{
+    background-color: rgb(25, 25, 27);
+    box-shadow: 3px 3px 10px rgb(252, 70, 101 , 0.5) ;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: white;
+}
+.Contact{
+    height: 40rem;
+    background-image: url(hb.jpg);
+}
+.con{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.left{
+    width: 40%;
+    color: white;
+    margin-left: 2rem;
+    margin-top: 5rem;
+    
+}
+.tit{
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.gpara{
+    margin-top: 1rem;
+    line-height: 1.5rem;
+}
+.icons{
+    color: white;
+   }
+   .icons i{
+    font-size: 1.6rem;
+}
+.icon1{
+    display: flex;
+    margin-top: 2rem;
+}
+.icon1 p{
+    margin-left: 2rem;
+}
+.icon2{
+    display: flex;
+    margin-top: 2rem;
+}
+.icon2 p{
+    margin-left: 2rem;
+}
+.icon3{
+    display: flex;
+    margin-top: 2rem;
+}
+.icon3 p{
+    margin-left: 2rem;
+}
+.tit1{
+    color: white;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.right input{
+    height: 2rem;
+    width: 14rem;
+    margin-top: 1rem;
+   font-size: 1rem;
+  
+}
+.right button{
+    margin-top: 2rem;
+    height: 2rem;
+    color: white;
+    width: 9rem;
+    border-radius: 3px;
+    background-color: rgb(222, 55, 83);
+    font-size: 1rem;
+    font-weight: 500;
+}
+.right button:hover{
+    background-color:rgb(164, 37, 58);
+    transform: scale(1.1);
+}
+
+.foot{
+    text-align: center;
+    background-color:rgba(18, 17, 18, 0.946);
+    width: 100%;
+    height:20px;
+    
+}
+.foot div{
+    color: white;
+    opacity: 0.4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
